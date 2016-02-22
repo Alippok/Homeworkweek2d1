@@ -7,8 +7,6 @@ attr_accessor(:tummy)
   @type = type
   @roar = roar
   @tummy = tummy
-
-
  end
 
 
