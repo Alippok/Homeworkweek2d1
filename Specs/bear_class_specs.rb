@@ -21,8 +21,8 @@ def test_bear_type
 end
 
 def test_set_bear_tummy
-  @bear.tummy = "Fish1", "Fish2", "Fish3", "Fish4"
-  assert_equal(["Fish1", "Fish2", "Fish3", "Fish4"], @bear.tummy)
+  @bear.tummy = []
+  assert_equal([], @bear.tummy)
 end
 
 
