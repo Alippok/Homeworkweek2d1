@@ -28,7 +28,10 @@ def test_how_many_fishes_in_bear
   assert_equal(0, @river.how_many_fishes_in_bear)
 end
   
-
+def test_bear_eats_fishes
+  result = @river.bear_eats_fishes(5)
+  assert_equal(1, result)
+end
 
 
 end
