@@ -23,6 +23,10 @@ end
 def test_how_many_fishes
   assert_equal(6, @river.how_many_fishes)
 end
+
+def test_how_many_fishes_in_bear
+  assert_equal(0, @river.how_many_fishes_in_bear)
+end
   
 
 
