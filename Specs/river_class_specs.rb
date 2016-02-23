@@ -30,8 +30,12 @@ end
   
 def test_bear_eats_fishes
   result = @river.bear_eats_fishes(5)
-  assert_equal(1, result)
+  assert_equal(1, result)#This is the length of the river-fishes array after the amount in line above as been removed 
 end
 
+def test_return_bear_info
+  result = @river.return_bear_info("Roar")
+  assert_equal("Raaar!", result)
+end
 
 end

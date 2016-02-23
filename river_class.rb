@@ -24,11 +24,23 @@ def bear_eats_fishes(amount)
   else
     return "Not enough fishes"
   end
-
- 
   bears_tummy = @animal.tummy
   bears_tummy.push(fish_eaten)
   return @fishes.length #or return bears_tummy.length.flatten to check if they have gone into the bear
+
+end
+
+def return_bear_info(info)
+  case info.downcase
+    when "name"
+      return @animal.name
+    when "type"
+      return @animal.type
+    when "roar"
+      return @animal.roar
+    when "tummy"
+      return @animal.tummy
+    end
 
 end
 
